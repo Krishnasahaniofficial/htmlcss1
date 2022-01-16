@@ -1,0 +1,78 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.kimage{
+    background: url(t3.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.kimg{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: (-50%, -50%);
+
+
+}
+.kimg h1{
+    text-align: center;
+    font-size: 2.6rem;
+}
+.form1 .code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+}
+
+/* utility classes */
+.img-responsive{
+    max-width:100% ;
+}
+
+.form1{
+    text-align: center;
+
+}
+.form1 button{
+    width: 40%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(3, 204, 87);
+    color: white;
+    padding: .5rem;
+    border-radius: 6rem;
+
+}
+/* product section */
+.product{
+   width: 80%;
+   margin-left: auto; 
+   margin-right: auto;
+   margin-top: 1rem;
+}
+.productlist{
+    float: left;
+    width: 32.33%;
+    margin-left: 1rem;
+
+}
+.productlist :first-of-type{
+    margin: 0;
+}
+@media screen and (max-width: 700;){
+    .productlist{
+        width: 100%;
+        float: none;
+    }
+}
+    
